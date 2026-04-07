@@ -1,0 +1,714 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-12 05:15+0500\n"
+"PO-Revision-Date: 2025-06-12 05:15+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+msgid "start_welcome"
+msgstr "👋 Добро пожаловать! Пожалуйста, выберите язык:"
+
+msgid "start"
+msgstr "👋 С возвращением! Используйте меню ниже для начала работы."
+
+msgid "help_message"
+msgstr "ℹ️ <b>Помощь</b>\n\nЭтот бот позволяет загружать видео с различных платформ. Используйте главное меню для выбора нужной платформы."
+
+msgid "ig_detected"
+msgstr "📎 Ссылка на Instagram обнаружена! Обработка..."
+
+msgid "ig_video_ready"
+msgstr "📽 Вот ваше видео из Instagram!"
+
+msgid "ig_unknown_action"
+msgstr "❌ Неизвестное действие."
+
+msgid "ig_extracting"
+msgstr "🔍 Извлечение и распознавание музыки..."
+
+msgid "ig_session_expired"
+msgstr "❌ Сессия истекла. Пожалуйста, отправьте ссылку снова."
+
+msgid "ig_extract_failed"
+msgstr "❌ Не удалось извлечь аудио."
+
+msgid "ig_music_not_recognized"
+msgstr "😕 Музыка в видео не распознана."
+
+msgid "ig_music_found"
+msgstr "🎶 <b>{title}</b>\n👤 {artist}"
+
+msgid "ig_recognition_error"
+msgstr "❌ Что-то пошло не так при распознавании."
+
+msgid "lang_choose"
+msgstr "🌐 Пожалуйста, выберите язык:"
+
+msgid "developer_info"
+msgstr "🤖 Этот бот был создан <a href='https://t.me/tmshaxzodbek'>@tmshaxzodbek</a>.\n\n"
+"🌐 Сайт: <a href='https://shaxzodbek.com'>Shaxzodbek</a>\n"
+"💼 LinkedIn: <a href='https://linkedin.com/in/shaxzodbek-muxtorov-59144a294'>shaxzodbek</a>\n"
+"📧 Email: <a href='mailto:muxtorovshaxzodbek16@gmail.com'>muxtorovshaxzodbek16@gmail.com</a>\n"
+"📱 GitHub: <a href='https://github.com/Shaxzodbek16'>github.com/Shaxzodbek16</a>\n"
+"📞 Телефон: +998 91 526 01 12"
+
+msgid "likee_detected"
+msgstr "📎 Likee ҳаволаси аниқланди! Қайта ишланмоқда..."
+
+msgid "likee_video_ready"
+msgstr "📽 Likee видеоси тайёр!"
+
+msgid "likee_downloading_music"
+msgstr "🎵 Likee'дан мусиқа юкланмоқда..."
+
+msgid "likee_music_not_implemented"
+msgstr "❌ Мусиқа юклаш функцияси ҳали ишлаб чиқилмаган."
+
+msgid "searching"
+msgstr "🔍"
+
+msgid "analyzing_audio"
+msgstr "🔍"
+
+msgid "no_results"
+msgstr "😕 Результаты не найдены."
+
+msgid "search_min_chars"
+msgstr "⚠️ Введите минимум 2 символа для поиска."
+
+msgid "please_retry"
+msgstr "❌ Пожалуйста, отправьте ссылку повторно или попробуйте позже."
+
+msgid "tiktok_detected"
+msgstr "📎 Ссылка на TikTok обнаружена! Обработка..."
+
+msgid "tiktok_video_ready"
+msgstr "📽 Вот ваше видео из TikTok!"
+
+msgid "unknown_action"
+msgstr "❌ Неизвестное действие."
+
+msgid "extracting"
+msgstr "🔍 Извлечение и распознавание музыки..."
+
+msgid "session_expired"
+msgstr "❌ Сессия истекла. Пожалуйста, отправьте ссылку заново."
+
+msgid "extract_failed"
+msgstr "❌ Не удалось извлечь аудио."
+
+msgid "music_not_recognized"
+msgstr "😕 Не удалось распознать музыку в этом видео."
+
+msgid "music_found"
+msgstr "🎶 <b>{title}</b>\n👤 {artist}"
+
+msgid "recognition_error"
+msgstr "❌ Ошибка при распознавании"
+
+msgid "download_failed"
+msgstr "❌ Не удалось загрузить видео"
+
+msgid "refer_button"
+msgstr "📥 Пригласить друзей и заработать"
+
+msgid "refer_bot_username_missing"
+msgstr "❌ Ошибка: имя пользователя бота не установлено. Свяжитесь с администратором."
+
+msgid "refer_message"
+msgstr ""
+"🎁 <b>Пригласи и получай бонусы</b>\n\n"
+"💸 <b>1 друг = 1 награда!</b>\n"
+"🎯 Вы пригласили: <code>{count}</code> друзей(я)\n"
+"🏆 За каждого друга вы получаете <b>{token_count}</b> токенов — это <b>1 месяц БЕСПЛАТНО</b>!\n\n"
+"📲 <b>Шаг 1:</b> Поделитесь вашей ссылкой 👇\n"
+"<code>{referral_link}</code>\n\n"
+"🚀 <b>Шаг 2:</b> Подождите, пока ваш друг присоединится и начнет зарабатывать!\n\n"
+"✨ <i>Давайте развиваться вместе!</i>"
+
+msgid "refer_share_btn"
+msgstr "📤 Поделиться с друзьями"
+
+msgid "refer_share_text"
+msgstr "Присоединяйся ко мне и получай токены!"
+
+msgid "snapchat_detected"
+msgstr "📎 Ссылка на Snapchat обнаружена! Обработка..."
+
+msgid "snapchat_download_failed"
+msgstr "❌ Не удалось загрузить медиа из Snapchat."
+
+msgid "snapchat_video_ready"
+msgstr "📽 Вот ваше видео из Snapchat!"
+
+msgid "snapchat_download_error"
+msgstr "❌ Ошибка при загрузке медиа из Snapchat."
+
+msgid "unknown_action"
+msgstr "❌ Неизвестное действие."
+
+msgid "extracting"
+msgstr "🔍 Извлечение и распознавание музыки..."
+
+msgid "session_expired"
+msgstr "❌ Сессия истекла. Пожалуйста, отправьте ссылку заново."
+
+msgid "extract_failed"
+msgstr "❌ Не удалось извлечь аудио."
+
+msgid "music_not_recognized"
+msgstr "😕 Не удалось распознать музыку в этом видео."
+
+msgid "music_found"
+msgstr "🎶 <b>{title}</b>\n👤 {artist}"
+
+msgid "recognition_error"
+msgstr "❌ Ошибка при распознавании музыки"
+
+msgid "your_referral_link"
+msgstr "🔗 Ваша реферальная ссылка: {link}"
+
+msgid "pinterest_detected"
+msgstr "📎 Ссылка на Pinterest обнаружена! Обработка..."
+
+msgid "pinterest_download_failed"
+msgstr "❌ Не удалось загрузить медиа из Pinterest."
+
+msgid "pinterest_video_ready"
+msgstr "📽 Вот ваше видео из Pinterest!"
+
+msgid "pinterest_download_error"
+msgstr "❌ Ошибка при загрузке Pinterest медиа."
+
+msgid "unknown_action"
+msgstr "❌ Неизвестное действие."
+
+msgid "extracting"
+msgstr "🔍 Извлечение и распознавание музыки..."
+
+msgid "session_expired"
+msgstr "❌ Сессия истекла. Пожалуйста, отправьте ссылку заново."
+
+msgid "extract_failed"
+msgstr "❌ Не удалось извлечь аудио."
+
+msgid "music_not_recognized"
+msgstr "😕 Не удалось распознать музыку в этом видео."
+
+msgid "music_found"
+msgstr "🎶 <b>{title}</b>\n👤 {artist}"
+
+msgid "recognition_error"
+msgstr "❌ Ошибка при распознавании музыки"
+
+msgid "payment_info"
+msgstr "Свяжитесь с админом, чтобы пополнить баланс 💳 {username}\n\n"
+
+msgid "Please send the user's Telegram ID 👤"
+msgstr "Пожалуйста, отправьте Telegram ID пользователя 👤"
+
+msgid "Invalid Telegram ID. Please send only numbers."
+msgstr "Недопустимый Telegram ID. Отправьте только цифры."
+
+msgid "How much do you want to add to the balance? 💵"
+msgstr "Сколько вы хотите добавить на баланс? 💵"
+
+msgid "Please send a valid positive number 💸"
+msgstr "Пожалуйста, отправьте корректное положительное число 💸"
+
+msgid "User not found ❌"
+msgstr "Пользователь не найден ❌"
+
+msgid "Successfully added {amount} to user {tg_id} ✅"
+msgstr "Успешно добавлено {amount} пользователю {tg_id} ✅"
+
+msgid "How much do you want to remove from the balance? 💵"
+msgstr "Сколько вы хотите снять с баланса? 💵"
+
+msgid "Insufficient balance to remove this amount ❌"
+msgstr "Недостаточно средств на балансе для снятия этой суммы ❌"
+
+msgid "Remove from balance"
+msgstr "Снять с баланса"
+
+msgid "You are not registered in the system ❌"
+msgstr "Вы не зарегистрированы в системе ❌"
+
+msgid "Your current balance is: {balance} 💰"
+msgstr "Ваш текущий баланс: {balance} 💰"
+
+msgid "Successfully removed {amount} from user {tg_id} ✅"
+msgstr "Успешно снято {amount} с пользователя {tg_id} ✅"
+
+msgid "payment_info"
+msgstr "Свяжитесь с администратором для пополнения баланса 💳 {username}\n\n"
+
+msgid "payment_card_info"
+msgstr "Номер карты: <code>9860350101441425</code>\nВладелец: <code>Yo'ldoshev Adhamjon</code>\nПереведите {premium_price} сум на эту карту и отправьте скриншот платежа на указанный логин.\n"
+
+msgid "Please send the user's Telegram ID 👤"
+msgstr "Пожалуйста, отправьте Telegram ID пользователя 👤"
+
+msgid "Invalid Telegram ID. Please send only numbers."
+msgstr "Неверный Telegram ID. Отправьте только цифры."
+
+msgid "How much do you want to add to the balance? 💵"
+msgstr "Сколько вы хотите добавить к балансу? 💵"
+
+msgid "Please send a valid positive number 💸"
+msgstr "Пожалуйста, отправьте корректное положительное число 💸"
+
+msgid "User not found ❌"
+msgstr "Пользователь не найден ❌"
+
+msgid "Successfully added {amount} to user {tg_id} ✅"
+msgstr "Успешно добавлено {amount} пользователю {tg_id} ✅"
+
+msgid "How much do you want to remove from the balance? 💵"
+msgstr "Сколько вы хотите убрать с баланса? 💵"
+
+msgid "Insufficient balance to remove this amount ❌"
+msgstr "Недостаточно средств для снятия этой суммы ❌"
+
+msgid "Remove from balance"
+msgstr "Убрать с баланса"
+
+msgid "You are not registered in the system ❌"
+msgstr "Вы не зарегистрированы в системе ❌"
+
+msgid "Your current balance is: {balance} 💰"
+msgstr "Ваш текущий баланс: {balance} 💰"
+
+msgid "Successfully removed {amount} from user {tg_id} ✅"
+msgstr "Успешно снято {amount} с пользователя {tg_id} ✅"
+
+msgid "current_requests_info"
+msgstr "Ваши текущие запросы: {tokens} 💰"
+
+msgid "💲 Fill Balance"
+msgstr "💲 Пополнить баланс"
+
+msgid "Update Premium price"
+msgstr "Обновить цену Premium"
+
+msgid "price_update_prompt"
+msgstr "✍️ Пожалуйста, отправьте новое целое значение (должно быть > 0), или нажмите 🔙 для отмены:"
+
+msgid "🔙 Back to Admin Panel"
+msgstr "🔙 Назад к админ панели"
+
+msgid "back_to_admin_panel"
+msgstr "🔙 Возвращение к админ панели."
+
+msgid "update_cancelled"
+msgstr "🔙 Обновление отменено. Вот админ панель:"
+
+msgid "invalid_price_input"
+msgstr "⚠️ Неверный ввод. Отправьте положительное число или нажмите 🔙 Назад к админ панели."
+
+msgid "price_updated_success"
+msgstr "✅ Токены за реферала обновлены до <b>{price}</b>."
+
+msgid "subscription_confirmation"
+msgstr "Хотите активировать подписку за {price} сум?"
+
+msgid "subscription_activated"
+msgstr "✅ Подписка активирована!"
+
+msgid "insufficient_balance"
+msgstr "❌ Недостаточно средств. Пожалуйста, пополните баланс."
+
+msgid "payment_cancelled"
+msgstr "❌ Платеж отменен."
+
+msgid "activate_subscription_btn"
+msgstr "Активировать подписку"
+
+msgid "invite_friends_btn"
+msgstr "Пригласить друзей"
+
+msgid "confirm_btn"
+msgstr "✅ Подтвердить"
+
+msgid "cancel_btn"
+msgstr "❌ Отмена"
+
+msgid "view_link_btn"
+msgstr "🔗 Посмотреть ссылку"
+
+msgid "update_btn"
+msgstr "✏️ Обновить"
+
+msgid "delete_btn"
+msgstr "🗑️ Удалить"
+
+msgid "yes_btn"
+msgstr "✅ Да"
+
+msgid "no_btn"
+msgstr "❌ Нет"
+
+msgid "check_subscription_btn"
+msgstr "✅ Проверить"
+
+msgid "download_music_btn"
+msgstr "Скачать музыку"
+
+msgid "admin_panel_welcome"
+msgstr "🛠 <b>Админ панель</b>\n\n👋 Добро пожаловать, админ!\nПожалуйста, выберите действие из меню ниже для эффективного управления ботом и пользователями."
+
+msgid "user_export_caption"
+msgstr "📊 <b>Экспорт пользователей</b>\n\n✅ <b>Файл:</b> <code>{file_name}</code>\n🕒 <b>Создан:</b> <code>{generated_time}</code>"
+
+msgid "export_failed_error"
+msgstr "❌ Не удалось создать экспорт:\n<code>{error}</code>"
+
+msgid "user_growth_header"
+msgstr "👥 <b>Рост пользователей и лидеры рефералов</b>\n"
+
+msgid "stats_today"
+msgstr "📅 Сегодня: <b>{count}</b> новых"
+
+msgid "stats_yesterday"
+msgstr "📅 Вчера: <b>{count}</b>"
+
+msgid "stats_last_week"
+msgstr "📅 За последние 7 дней: <b>{count}</b>"
+
+msgid "stats_last_month"
+msgstr "📅 За последний месяц: <b>{count}</b>"
+
+msgid "stats_last_year"
+msgstr "📅 За последний год: <b>{count}</b>"
+
+msgid "stats_all_time"
+msgstr "📅 За все время: <b>{count}</b>\n"
+
+msgid "top_referrers_header"
+msgstr "🔥 <b>Топ 10 рефереров</b>:"
+
+msgid "referrer_item"
+msgstr "{idx}. {name} (<code>{tg_id}</code>) — {count} рефералов"
+
+msgid "connected_channels_header"
+msgstr "\n📡 <b>Подключенные Telegram каналы</b>:"
+
+msgid "channel_active"
+msgstr "🟢 Активен"
+
+msgid "channel_inactive"
+msgstr "🔴 Неактивен"
+
+msgid "channel_item"
+msgstr "{idx}. <a href='{link}'>{name}</a> — {status}"
+
+msgid "no_channels_connected"
+msgstr "\nКаналы не подключены."
+
+msgid "usage_statistics_header"
+msgstr "\n📊 <b>Статистика использования</b>:"
+
+msgid "usage_from_text"
+msgstr "• Использований текста: <b>{count}</b>"
+
+msgid "usage_from_voice"
+msgstr "• Использований голоса: <b>{count}</b>"
+
+msgid "usage_from_youtube"
+msgstr "• Использований YouTube: <b>{count}</b>"
+
+msgid "usage_from_tiktok"
+msgstr "• Использований TikTok: <b>{count}</b>"
+
+msgid "usage_from_like"
+msgstr "• Использований Likee: <b>{count}</b>"
+
+msgid "usage_from_snapchat"
+msgstr "• Использований Snapchat: <b>{count}</b>"
+
+msgid "usage_from_instagram"
+msgstr "• Использований Instagram: <b>{count}</b>"
+
+msgid "usage_from_twitter"
+msgstr "• Использований Twitter: <b>{count}</b>"
+
+msgid "current_token_and_price"
+msgstr "Текущее количество токенов: <b>{tokens}</b>\n\nТекущая цена премиум: <b>{price}</b> токенов"
+
+msgid "settings_page"
+msgstr "🔧 <b>Настройки</b>\n\nЗдесь вы можете настроить параметры бота, включая настройки уведомлений, языковые опции и многое другое."
+
+msgid "channels_page"
+msgstr "📈 <b>Каналы</b>\n\nЗдесь вы можете управлять каналами, связанными с ботом, включая добавление, редактирование и удаление каналов."
+
+msgid "broadcast_cancelled"
+msgstr "🔙 Рассылка отменена."
+
+msgid "back_to_admin_panel_welcome"
+msgstr "🔙 <b>Админ панель</b>\n\nДобро пожаловать обратно! Пожалуйста, выберите действие, которое хотите выполнить:"
+
+msgid "settings_overview"
+msgstr "⚙️ <b>Настройки</b>\n\n🔢 Текущие токены за реферала: <b>{current_tokens}</b>\n\nТекущая цена премиум {premium_price}: <b>100</b> токенов\n\n"
+
+msgid "ask_new_token_value"
+msgstr "✍️ Пожалуйста, отправьте новое целое значение (должно быть > 0), или нажмите 🔙 для отмены:"
+
+msgid "returning_to_admin_panel"
+msgstr "🔙 Возвращение к админ панели."
+
+msgid "token_update_cancelled"
+msgstr "🔙 Обновление отменено. Вот админ панель:"
+
+msgid "invalid_token_input"
+msgstr "⚠️ Неверный ввод. Отправьте положительное число или нажмите 🔙 Назад к админ панели."
+
+msgid "token_updated_success"
+msgstr "✅ Токены за реферала обновлены до <b>{tokens}</b>."
+
+msgid "broadcast_start_message"
+msgstr "📢 <b>Рассылка всем пользователям</b>\n\nОтправьте мне текст сообщения в <i>HTML</i> формате:"
+
+msgid "broadcast_html_instructions"
+msgstr "📢 <b>Рассылка всем пользователям</b>\n\nОтправьте мне ваше сообщение, используя эти HTML теги:\n\n<b>жирный</b> — <code>&lt;b&gt;жирный&lt;/b&gt;</code>\n<i>курсив</i> — <code>&lt;i&gt;курсив&lt;/i&gt;</code>\n<u>подчеркнутый</u> — <code>&lt;u&gt;подчеркнутый&lt;/u&gt;</code>\n<a href=\"URL\">ссылка</a> — <code>&lt;a href=\"URL\"&gt;ссылка&lt;/a&gt;</code>\n<code>код</code> — <code>&lt;code&gt;…&lt;/code&gt;</code>\n<pre>предформатированный</pre> — <code>&lt;pre&gt;…&lt;/pre&gt;</code>\n\nЗатем нажмите Отправить. Я обработаю это как HTML и отправлю всем."
+
+msgid "ask_for_media"
+msgstr "🎞 Хотите ли вы включить фото, видео или документ?"
+
+msgid "broadcast_started"
+msgstr "✅ Рассылка запущена в фоне. Я уведомлю вас, когда она завершится."
+
+msgid "broadcast_with_media_started"
+msgstr "✅ Рассылка с медиа запущена в фоне."
+
+msgid "📋 <b>Channel List</b>"
+msgstr "📋 <b>Список каналов</b>"
+
+msgid "Here you can view the list of channels that have been added."
+msgstr "Здесь вы можете просмотреть список добавленных каналов."
+
+msgid "Use the buttons below to manage your channels."
+msgstr "Используйте кнопки ниже для управления каналами."
+
+msgid "🗑️ Channel %(channel_id)d deleted."
+msgstr "🗑️ Канал %(channel_id)d удален."
+
+msgid "❌ Channel not found."
+msgstr "❌ Канал не найден."
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Inactive"
+msgstr "Неактивный"
+
+msgid "📺 <b>Channel Info</b>"
+msgstr "📺 <b>Информация о канале</b>"
+
+msgid "<b>Name:</b> %(name)s"
+msgstr "<b>Название:</b> %(name)s"
+
+msgid "<b>Link:</b> %(link)s"
+msgstr "<b>Ссылка:</b> %(link)s"
+
+msgid "<b>Status:</b> %(status)s"
+msgstr "<b>Статус:</b> %(status)s"
+
+msgid "📣 Please send the <b>channel name</b>:"
+msgstr "📣 Пожалуйста, отправьте <b>название канала</b>:"
+
+msgid "🔗 Now send the <b>channel link</b> (e.g. https://t.me/yourchannel):"
+msgstr "🔗 Теперь отправьте <b>ссылку на канал</b> (например: https://t.me/yourchannel):"
+
+msgid "🆔 Please send the <b>numeric channel ID</b> (only digits):"
+msgstr "🆔 Пожалуйста, отправьте <b>числовой ID канала</b> (только цифры):"
+
+msgid "✅ Should this channel be active?"
+msgstr "✅ Должен ли этот канал быть активным?"
+
+msgid "❗️ Please send a valid numeric channel ID (example: <code>-1001234567890</code>)."
+msgstr "❗️ Пожалуйста, отправьте правильный числовой ID канала (пример: <code>-1001234567890</code>)."
+
+msgid "❓ Please tap ✅ Yes or ❌ No."
+msgstr "❓ Пожалуйста, нажмите ✅ Да или ❌ Нет."
+
+msgid "⚠️ That link is already in use. Please start over with a unique channel link."
+msgstr "⚠️ Эта ссылка уже используется. Пожалуйста, начните заново с уникальной ссылкой на канал."
+
+msgid "⚠️ That channel ID is already in use. Please start over with a unique ID."
+msgstr "⚠️ Этот ID канала уже используется. Пожалуйста, начните заново с уникальным ID."
+
+msgid "❌ Database error:\n<code>%(error)s</code>"
+msgstr "❌ Ошибка базы данных:\n<code>%(error)s</code>"
+
+msgid "🎉 Channel <b>%(name)s</b> has been added successfully!\nMake sure to set the channel's privacy settings to allow the bot to access it."
+msgstr "🎉 Канал <b>%(name)s</b> успешно добавлен!\nУбедитесь, что настройки приватности канала позволяют боту получить к нему доступ."
+
+msgid "✏️ <b>Update Channel Name</b>\n\nSend the new name or tap ⏭ Skip to keep the old one:"
+msgstr "✏️ <b>Обновить название канала</b>\n\nОтправьте новое название или нажмите ⏭ Пропустить, чтобы оставить старое:"
+
+msgid "🔗 <b>Update Channel Link</b>\n\nSend the new link or tap ⏭ Skip to keep the old one:"
+msgstr "🔗 <b>Обновить ссылку канала</b>\n\nОтправьте новую ссылку или нажмите ⏭ Пропустить, чтобы оставить старую:"
+
+msgid "⚠️ That link exists. Send a unique link or tap ⏭ Skip:"
+msgstr "⚠️ Эта ссылка существует. Отправьте уникальную ссылку или нажмите ⏭ Пропустить:"
+
+msgid "❌ DB error:\n<code>%(error)s</code>"
+msgstr "❌ Ошибка БД:\n<code>%(error)s</code>"
+
+msgid "✅ Channel <b>%(name)s</b> updated!\n🔗 Link: <code>%(link)s</code>"
+msgstr "✅ Канал <b>%(name)s</b> обновлен!\n🔗 Ссылка: <code>%(link)s</code>"
+
+msgid "🚫 You still need to join these channels."
+msgstr "🚫 Вам все еще нужно подписаться на эти каналы."
+
+msgid "You have no any requests left. 😢"
+msgstr "У вас не осталось запросов. 😢"
+
+msgid "📁 Users excel"
+msgstr "📁 Пользователи (Excel)"
+
+msgid "📊 Statistics"
+msgstr "📊 Статистика"
+
+msgid "🔧 Settings"
+msgstr "🔧 Настройки"
+
+msgid "📈 Channels"
+msgstr "📈 Каналы"
+
+msgid "💲 Fill Balance"
+msgstr "💲 Пополнить баланс"
+
+msgid "Remove from balance"
+msgstr "Снять с баланса"
+
+msgid "🔙 Back to Main Menu"
+msgstr "🔙 На главную"
+
+msgid "Choose an admin action 🔧"
+msgstr "Выберите действие 🔧"
+
+msgid "➕ Add Channel"
+msgstr "➕ Добавить канал"
+
+msgid "📋 View Channels"
+msgstr "📋 Список каналов"
+
+msgid "🔙 Back to Admin Panel"
+msgstr "🔙 В админ-панель"
+
+msgid "Select channel action 📡"
+msgstr "Выберите действие с каналом 📡"
+
+msgid "Update Tokens per Referral"
+msgstr "Обновить токены за реферала"
+
+msgid "Update Premium price"
+msgstr "Обновить цену Premium"
+
+msgid "Send Message to All Users"
+msgstr "Отправить сообщение всем"
+
+msgid "Settings options ⚙️"
+msgstr "Настройки ⚙️"
+
+msgid "✅ Add Media"
+msgstr "✅ Добавить медиа"
+
+msgid "⏭ Skip Media"
+msgstr "⏭ Пропустить медиа"
+
+msgid "You have no any requests left. 😢"
+msgstr "🚫 Запросы закончились! Получите больше для продолжения 💫"
+
+msgid "⚠️ Please enter at least 2 characters to search."
+msgstr "✨ Введите минимум 2 буквы для поиска! 🔤"
+
+msgid "🔍 Searching..."
+msgstr "🔍"
+
+msgid "😕 No results found. Try different keywords."
+msgstr "🤔 Ничего не найдено! Попробуйте другие слова 🔄"
+
+msgid "❌ Search failed. Please try again."
+msgstr "⚠️ Упс! Что-то пошло не так. Попробуйте через момент 🔄"
+
+msgid "🔍 Analyzing audio..."
+msgstr "🔍"
+
+msgid "❌ Could not download media file."
+msgstr "📱 Не могу получить ваш файл. Отправьте снова 🔄"
+
+msgid "😕 Could not recognize any music in this file."
+msgstr "🤷‍♂️ Музыка не обнаружена! Попробуйте более четкое аудио 🎵"
+
+msgid "❌ Recognition failed. Please try again."
+msgstr "🔄 Распознавание не удалось. Попробуйте через немного ⏱️"
+
+msgid "⏰ Search results expired. Please search again."
+msgstr "⏰ Результаты устарели! Найдите снова для свежих результатов 🔍"
+
+msgid "⏰ Results expired or invalid selection."
+msgstr "⚠️ Сессия истекла или неверный выбор. Ищите снова! 🔍"
+
+msgid "⏳ Downloading video..."
+msgstr "⏳"
+
+msgid "⏳ Please wait a moment before next download."
+msgstr "⏱️ Подождите 2 секунды перед следующей загрузкой 🤝"
+
+msgid "⏳ Downloading audio..."
+msgstr "⏳"
+
+msgid "❌ Invalid request."
+msgstr "⚠️ Неверный запрос. Попробуйте еще раз 🔄"
+
+msgid "❌ Something went wrong."
+msgstr "😅 Упс! Произошло что-то неожиданное. Попробуйте снова 🔄"
+
+msgid "❌ Downloaded file is empty."
+msgstr "📁 Файл оказался пустым. Попробуйте другой трек 🔄"
+
+msgid "❌ Download failed. The track might not be available."
+msgstr "😔 Загрузка не удалась! Этот трек может быть недоступен 🚫"
+
+msgid "❌ Download error: {error}"
+msgstr "⚠️ Проблема с загрузкой. Попробуйте позже 🔄"
+
+msgid "❌ Video ID not available."
+msgstr "🎬 Видео сейчас недоступно. Попробуйте другое 🔄"
+
+msgid "❌ Downloaded video is empty."
+msgstr "📹 Видео файл пуст. Попробуйте выбрать другое видео 🔄"
+
+msgid "❌ Video download failed (might be >50MB or unavailable)."
+msgstr "📱 Видео слишком большое или недоступно. Попробуйте аудио! 🎵"
+
+msgid "❌ Video download error: {error}"
+msgstr "🎬 Проблема с видео. Попробуйте позже ⏱️"
+
+msgid "No results found."
+msgstr "🔍 Совпадений не найдено"
+
+msgid "<b>🎵 Results — Page {page}</b>\n"
+msgstr "<b>🎶 Результаты — Страница {page}</b>\n"
+
+msgid "Unknown"
+msgstr "Неизвестный исполнитель"
+
+msgid "Error formatting result"
+msgstr "Ошибка отображения"
